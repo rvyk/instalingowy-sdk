@@ -5,24 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc127b16-fc10-4211-aeb4-53fb1ef8940a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/InitSession/InitSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/InstalingLogin/InstalingLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/SessionValidation/SessionValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/scrapper/InstalingLogin/InstalingLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/scrapper/SessionValidation/SessionValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/InitSession/InitSessionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/InstalingLogin/InstalingLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/SessionValidation/SessionValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapperTesting/InitSession/InitSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapperTesting/InstalingLogin/InstalingLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/InstalingLogin/InstalingLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapperTesting/SessionValidation/SessionValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/SessionValidation/SessionValidation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +26,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,83 +62,89 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.Tests in 'instalingowy-sdk.test'">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.rvyk.Main" />
-      <module name="instalingowy-sdk.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.rvyk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.All in instalingowy-sdk.test (2)">
+    <configuration name="All in instalingowy-sdk.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="instalingowy-sdk.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstalingLoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pl.rvyk.scrapper.InstalingLogin.InstalingLoginTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="All in instalingowy-sdk.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="instalingowy-sdk.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Tests in 'instalingowy-sdk.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="All in instalingowy-sdk.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="instalingowy-sdk.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InitSessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="instalingowy-sdk.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.rvyk.testing.InitSession.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.rvyk.testing.InitSession" />
+      <option name="MAIN_CLASS_NAME" value="pl.rvyk.testing.InitSession.InitSessionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstalingLoginTest.testLoginFailurePHPSessionID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="instalingowy-sdk.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.rvyk.testing.InstalingLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.rvyk.testing.InstalingLogin" />
+      <option name="MAIN_CLASS_NAME" value="pl.rvyk.testing.InstalingLogin.InstalingLoginTest" />
+      <option name="METHOD_NAME" value="testLoginFailurePHPSessionID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'instalingowy-sdk.test'" />
-        <item itemvalue="Gradle.InstalingLoginTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in instalingowy-sdk.test (2)" />
+        <item itemvalue="JUnit.InitSessionTest" />
+        <item itemvalue="JUnit.All in instalingowy-sdk.test (1)" />
+        <item itemvalue="JUnit.InstalingLoginTest.testLoginFailurePHPSessionID" />
+        <item itemvalue="JUnit.All in instalingowy-sdk.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StandaloneScriptsStorage">
+    <option name="files">
+      <set>
+        <option value="$PROJECT_DIR$/build.gradle.kts" />
+      </set>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cc127b16-fc10-4211-aeb4-53fb1ef8940a" name="Changes" comment="" />
@@ -144,11 +153,17 @@
       <option name="presentableId" value="Default" />
       <updated>1701460402288</updated>
       <workItem from="1701460403438" duration="7620000" />
-      <workItem from="1701515177294" duration="16198000" />
+      <workItem from="1701515177294" duration="18589000" />
+      <workItem from="1701538423805" duration="8865000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/instalingowy_sdk$Main.ic" NAME="Main Coverage Results" MODIFIED="1701541231190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.rvyk.*</FILTER>
+    </SUITE>
   </component>
 </project>
