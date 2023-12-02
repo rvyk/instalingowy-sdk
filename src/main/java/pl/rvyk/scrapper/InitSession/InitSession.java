@@ -1,12 +1,15 @@
 package pl.rvyk.scrapper.InitSession;
 
 import okhttp3.*;
+import org.jetbrains.annotations.NotNull;
 import pl.rvyk.Main;
+
 import java.io.IOException;
+
 public class InitSession {
     private boolean success;
+
     public void init(String phpSessionId, String appId, String studentId, Callback callback) {
-        OkHttpClient client = new OkHttpClient().newBuilder().followRedirects(false).build();
         String processedStudentId = studentId;
         if (studentId.contains("=")) {
             processedStudentId = studentId.split("=")[1];
@@ -24,14 +27,20 @@ public class InitSession {
                 .header("Cookie", phpSessionId + "; " + appId)
                 .post(requestBody)
                 .build();
-        client.newCall(request).enqueue(new Main.InstalingCallback() {
+        Main.client.newCall(request).enqueue(new Callback() {
             @Override
-            public void onResponse(Call call, Response response) throws IOException {
+            public void onFailure(@NotNull Call call, @NotNull IOException e) {
+                callback.onFailure(call, new IOException("[InitSession] -> Request failed"));
+            }
+
+            @Override
+            public void onResponse(@NotNull Call call, @NotNull Response response) throws IOException {
                 success = response.isSuccessful();
                 callback.onResponse(call, response);
             }
         });
     }
+
     public boolean isSuccess() {
         return success;
     }

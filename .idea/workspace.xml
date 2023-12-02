@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc127b16-fc10-4211-aeb4-53fb1ef8940a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/InitSession/InitSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/InitSession/InitSessionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/InstalingLogin/InstalingLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/SessionValidation/SessionValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/GenerateQuestion/GenerateQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/GenerateQuestion/GenerateQuestionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapperTesting/InitSession/InitSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapperTesting/InstalingLogin/InstalingLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/InstalingLogin/InstalingLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapperTesting/SessionValidation/SessionValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/SessionValidation/SessionValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/InitSession/InitSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/InitSession/InitSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/InstalingLogin/InstalingLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/InstalingLogin/InstalingLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/SessionValidation/SessionValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/SessionValidation/SessionValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/InitSession/InitSessionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/InitSession/InitSessionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/InstalingLogin/InstalingLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/InstalingLogin/InstalingLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/SessionValidation/SessionValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/SessionValidation/SessionValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +43,22 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2YxHdvRy6PUCnXIOYbKtvABRzX1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,19 +74,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in instalingowy-sdk.test (2)">
-    <configuration name="All in instalingowy-sdk.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="instalingowy-sdk.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in instalingowy-sdk.test">
     <configuration name="All in instalingowy-sdk.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="instalingowy-sdk.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,6 +91,21 @@
       <module name="instalingowy-sdk.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="instalingowy-sdk.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.rvyk.testing.GenerateQuestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.rvyk.testing.GenerateQuestion" />
+      <option name="MAIN_CLASS_NAME" value="pl.rvyk.testing.GenerateQuestion.GenerateQuestionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstalingLoginTest.testLoginFailurePHPSessionID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InstalingLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="instalingowy-sdk.test" />
       <extension name="coverage">
         <pattern>
@@ -121,19 +135,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.rvyk.testing.InstalingLogin" />
       <option name="MAIN_CLASS_NAME" value="pl.rvyk.testing.InstalingLogin.InstalingLoginTest" />
-      <option name="METHOD_NAME" value="testLoginFailurePHPSessionID" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in instalingowy-sdk.test" />
+        <item itemvalue="JUnit.GenerateQuestionTest" />
+        <item itemvalue="JUnit.InstalingLoginTest" />
         <item itemvalue="JUnit.All in instalingowy-sdk.test (2)" />
         <item itemvalue="JUnit.InitSessionTest" />
-        <item itemvalue="JUnit.All in instalingowy-sdk.test (1)" />
-        <item itemvalue="JUnit.InstalingLoginTest.testLoginFailurePHPSessionID" />
-        <item itemvalue="JUnit.All in instalingowy-sdk.test" />
       </list>
     </recent_temporary>
   </component>
@@ -154,12 +167,26 @@
       <updated>1701460402288</updated>
       <workItem from="1701460403438" duration="7620000" />
       <workItem from="1701515177294" duration="18589000" />
-      <workItem from="1701538423805" duration="8865000" />
+      <workItem from="1701538423805" duration="16721000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.Throwable" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/instalingowy_sdk$Main.ic" NAME="Main Coverage Results" MODIFIED="1701541231190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

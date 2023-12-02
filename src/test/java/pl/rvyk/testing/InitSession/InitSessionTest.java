@@ -8,12 +8,15 @@ import org.junit.Test;
 import pl.rvyk.Main;
 import pl.rvyk.scrapper.InitSession.InitSession;
 import pl.rvyk.scrapper.InstalingLogin.InstalingLogin;
+
 import java.io.IOException;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
+
 import static org.junit.Assert.*;
+
 public class InitSessionTest {
     @Test
     public void testInitSessionSuccess() throws InterruptedException, ExecutionException, TimeoutException {
@@ -34,6 +37,7 @@ public class InitSessionTest {
         });
         future.get(5, TimeUnit.SECONDS);
     }
+
     @Test
     public void testInitSessionFailure() throws InterruptedException, ExecutionException, TimeoutException {
         InitSession initSession = new InitSession();
@@ -47,6 +51,7 @@ public class InitSessionTest {
         });
         future.get(5, TimeUnit.SECONDS);
     }
+
     private static abstract class TestCallback implements Callback {
         @Override
         public void onFailure(@NotNull Call call, @NotNull IOException e) {
