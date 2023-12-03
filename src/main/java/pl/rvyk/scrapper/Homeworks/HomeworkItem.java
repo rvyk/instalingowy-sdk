@@ -1,4 +1,4 @@
-package pl.rvyk.scrapper.GetHomeworks;
+package pl.rvyk.scrapper.Homeworks;
 
 public class HomeworkItem {
     private String title;

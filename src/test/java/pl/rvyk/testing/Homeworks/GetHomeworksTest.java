@@ -1,4 +1,4 @@
-package pl.rvyk.testing.GetHomeworks;
+package pl.rvyk.testing.Homeworks;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -6,7 +6,7 @@ import okhttp3.Response;
 import org.jetbrains.annotations.NotNull;
 import org.junit.Test;
 import pl.rvyk.Main;
-import pl.rvyk.scrapper.GetHomeworks.GetHomeworks;
+import pl.rvyk.scrapper.Homeworks.GetHomeworks;
 import pl.rvyk.scrapper.InstalingLogin.InstalingLogin;
 
 import java.io.IOException;

@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc127b16-fc10-4211-aeb4-53fb1ef8940a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/GetHomeworks/GetHomeworks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/GetHomeworks/HomeworkItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/GetHomeworks/GetHomeworksTest.java" afterDir="false" />
+    <list default="true" id="cc127b16-fc10-4211-aeb4-53fb1ef8940a" name="Changes" comment="Added GetHomeworks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/Homeworks/GetHomeworkDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/Homeworks/GetHomeworkDetailsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/SendAnswer/SendAnswerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/SendAnswer/SendAnswerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/GetHomeworks/GetHomeworks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/Homeworks/GetHomeworks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/GetHomeworks/HomeworkItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/rvyk/scrapper/Homeworks/HomeworkItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/GetHomeworks/GetHomeworksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/rvyk/testing/Homeworks/GetHomeworksTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.GetHomeworksTest">
+  <component name="RunManager" selected="JUnit.GetHomeworkDetailsTest">
     <configuration name="All in instalingowy-sdk.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="instalingowy-sdk.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,10 +91,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in instalingowy-sdk.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetHomeworkDetailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="instalingowy-sdk.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.rvyk.testing.Homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.rvyk.testing.Homeworks" />
+      <option name="MAIN_CLASS_NAME" value="pl.rvyk.testing.Homeworks.GetHomeworkDetailsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,12 +110,12 @@
       <module name="instalingowy-sdk.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.rvyk.testing.GetHomeworks.*" />
+          <option name="PATTERN" value="pl.rvyk.testing.Homeworks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.rvyk.testing.GetHomeworks" />
-      <option name="MAIN_CLASS_NAME" value="pl.rvyk.testing.GetHomeworks.GetHomeworksTest" />
+      <option name="MAIN_CLASS_NAME" value="pl.rvyk.testing.Homeworks.GetHomeworksTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetHomeworkDetailsTest" />
         <item itemvalue="JUnit.GetHomeworksTest" />
         <item itemvalue="JUnit.SendAnswerTest" />
         <item itemvalue="JUnit.All in instalingowy-sdk.test (2)" />
         <item itemvalue="JUnit.All in instalingowy-sdk.test (1)" />
-        <item itemvalue="JUnit.All in instalingowy-sdk.test" />
       </list>
     </recent_temporary>
   </component>
@@ -158,10 +166,23 @@
       <workItem from="1701538423805" duration="16721000" />
       <workItem from="1701596558935" duration="3662000" />
     </task>
+    <task id="LOCAL-00001" summary="Added GetHomeworks">
+      <option name="closed" value="true" />
+      <created>1701618902162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701618902163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added GetHomeworks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added GetHomeworks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

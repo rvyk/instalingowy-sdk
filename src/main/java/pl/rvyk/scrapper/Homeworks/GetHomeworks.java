@@ -1,4 +1,4 @@
-package pl.rvyk.scrapper.GetHomeworks;
+package pl.rvyk.scrapper.Homeworks;
 
 import okhttp3.*;
 import org.jetbrains.annotations.NotNull;
