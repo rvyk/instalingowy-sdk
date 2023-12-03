@@ -37,10 +37,10 @@ public class SendAnswerTest {
                     }
                 });
 
-                sendAnswer.send(instalingLogin.getPhpSessionID(), instalingLogin.getAppID(), instalingLogin.getStudentID(), "2137", "cushio", new TestCallback() {
+                sendAnswer.send(instalingLogin.getPhpSessionID(), instalingLogin.getAppID(), instalingLogin.getStudentID(), "2137", "Cushion", new TestCallback() {
                     @Override
                     public void onResponse(@NotNull Call call, @NotNull Response response) {
-                        assertEquals(Long.valueOf(4), sendAnswer.getGrade());
+                        assertEquals(Long.valueOf(3), sendAnswer.getGrade());
                         assertTrue(sendAnswer.isSuccess());
                         future.complete(null);
                     }
