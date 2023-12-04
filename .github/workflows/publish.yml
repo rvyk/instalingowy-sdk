@@ -18,12 +18,12 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '17'
-          
+
       - name: Make Gradlew executable
         run: chmod +x ./gradlew
-        
+
       - name: Build and publish
         run: |
           ./gradlew publish
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.JAVA_TOKEN }}

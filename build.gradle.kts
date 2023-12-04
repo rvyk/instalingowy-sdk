@@ -35,7 +35,11 @@ publishing {
 
     repositories {
         maven {
-            url = uri("https://maven.pkg.github.com/rvyk/instalingowy-sdk/raw/main/repository")
+            url = uri("https://maven.pkg.github.com/rvyk/instalingowy-sdk")
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
         }
     }
 }

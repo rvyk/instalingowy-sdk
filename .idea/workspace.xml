@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc127b16-fc10-4211-aeb4-53fb1ef8940a" name="Changes" comment="Added README.md">
+    <list default="true" id="cc127b16-fc10-4211-aeb4-53fb1ef8940a" name="Changes" comment="Changed URI">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/publish.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
@@ -214,7 +215,7 @@
       <workItem from="1701515177294" duration="18589000" />
       <workItem from="1701538423805" duration="16721000" />
       <workItem from="1701596558935" duration="3662000" />
-      <workItem from="1701710447618" duration="4665000" />
+      <workItem from="1701710447618" duration="5395000" />
     </task>
     <task id="LOCAL-00001" summary="Added GetHomeworks">
       <option name="closed" value="true" />
@@ -256,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701718196115</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changed URI">
+      <option name="closed" value="true" />
+      <created>1701718722176</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701718722176</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +277,8 @@
     <MESSAGE value="Added SaveHomework" />
     <MESSAGE value="Added publish.yml workflow" />
     <MESSAGE value="Added README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added README.md" />
+    <MESSAGE value="Changed URI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed URI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
