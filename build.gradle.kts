@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    id("maven-publish")
 }
 
 group = "pl.rvyk"
@@ -19,6 +20,24 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.0")
 
     testImplementation("com.squareup.okhttp3:mockwebserver:4.9.1")
+}
+
+java {
+    withSourcesJar()
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("mavenJava") {
+            from(components["java"])
+        }
+    }
+
+    repositories {
+        maven {
+            url = uri("https://github.com/rvyk/instalingowy-sdk/raw/main/repository")
+        }
+    }
 }
 
 tasks.test {
