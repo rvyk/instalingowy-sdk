@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc127b16-fc10-4211-aeb4-53fb1ef8940a" name="Changes" comment="Added publish.yml workflow">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="cc127b16-fc10-4211-aeb4-53fb1ef8940a" name="Changes" comment="Added README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +214,7 @@
       <workItem from="1701515177294" duration="18589000" />
       <workItem from="1701538423805" duration="16721000" />
       <workItem from="1701596558935" duration="3662000" />
-      <workItem from="1701710447618" duration="4095000" />
+      <workItem from="1701710447618" duration="4665000" />
     </task>
     <task id="LOCAL-00001" summary="Added GetHomeworks">
       <option name="closed" value="true" />
@@ -248,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701714141179</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added README.md">
+      <option name="closed" value="true" />
+      <created>1701718196115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701718196115</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +267,8 @@
     <MESSAGE value="Added GetHomeworkDetails" />
     <MESSAGE value="Added SaveHomework" />
     <MESSAGE value="Added publish.yml workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added publish.yml workflow" />
+    <MESSAGE value="Added README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

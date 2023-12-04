@@ -35,7 +35,7 @@ publishing {
 
     repositories {
         maven {
-            url = uri("https://github.com/rvyk/instalingowy-sdk/raw/main/repository")
+            url = uri("https://maven.pkg.github.com/rvyk/instalingowy-sdk/raw/main/repository")
         }
     }
 }
