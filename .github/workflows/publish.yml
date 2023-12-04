@@ -18,7 +18,10 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '17'
-
+          
+      - name: Make Gradlew executable
+        run: chmod +x ./gradlew
+        
       - name: Build and publish
         run: |
           ./gradlew publish
